@@ -12,11 +12,11 @@ driver = webdriver.Chrome('C://Users//Hritik//Downloads//chromedriver')
 driver.get('https://www.linkedin.com/')
 
 username = driver.find_element_by_name("session_key")
-username.send_keys('pingpongfoo14@gmail.com')
+username.send_keys('enter-your-email-here')
 sleep(0.5)
 
 password = driver.find_element_by_name('session_password')
-password.send_keys('foofoofoo')
+password.send_keys('enter-your-password-here')
 sleep(0.5)
 
 sign_in_button = driver.find_element_by_class_name('sign-in-form__submit-btn')
